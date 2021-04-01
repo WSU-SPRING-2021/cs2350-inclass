@@ -1,2 +1,13 @@
 /* TODO */
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+#responsive-design img {
+  width: 100%;
+  margin: 5px;
+}
+
+#tic-tac-toe td {
+  width: 33%;
+  height: 4rem;
+}

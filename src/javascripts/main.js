@@ -6,5 +6,13 @@ require.context('../stylesheets/', true, /\.(css|scss)$/i)
 import 'bootstrap'
 
 // JavaScript
+import { addGuest } from './guestbook'
+import { playTicTacToe } from './tic-tac-toe'
 
-//TODO
+if(document.querySelector('#landing')){
+  document.getElementById("guestForm").onsubmit = addGuest
+}
+
+if(document.querySelector("#tic-tac-toe")){
+  playTicTacToe()
+}
